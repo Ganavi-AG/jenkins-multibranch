@@ -17,11 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying the application...'
-<<<<<<< HEAD
-                
-=======
-               
->>>>>>> e131a0cf7869cb4a3528dadcd8c34583e12c9c77
+            
             }
         }
     }
@@ -36,8 +32,5 @@ pipeline {
             echo 'Pipeline failed!'
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e131a0cf7869cb4a3528dadcd8c34583e12c9c77
+
